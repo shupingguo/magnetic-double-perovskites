@@ -1,0 +1,7 @@
+Title: Integrated machine learning assisted high-throughput discovery of novel magnetic double perovskite oxides
+Author: Shuping Guo, Ryan Morrow, Jeroen van den Brink, Oleg Janson
+Affiliation: IFW Dresden
+
+First use classification model to classify AFM and FM/FiM ordered candidates.
+Then use regression model to predict transition temperature.
+For AFM candidates, can use regression model to predict weiss temperature.
