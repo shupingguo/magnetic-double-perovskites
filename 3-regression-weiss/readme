@@ -1,6 +1,8 @@
 Pre-trained adaboosting regression model to predict AFM weiss temperature.
 RMSE of 20% testing: 90 K.
 
+Prepare predict.txt, unzip 90-ada.zip, then python3 ada.py.
+
 Format of predict.txt:
 1: largest t2g-t2g hopping of Ja(B-B)     
 2: largest t2g-eg hopping of Ja(B-B)
