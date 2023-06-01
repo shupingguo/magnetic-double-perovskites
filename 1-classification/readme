@@ -1,0 +1,12 @@
+Pre-trained adaboosting model to classify AFM(-1), FM/FiM(1), PM/SG(0).
+Accuracy: 78%
+
+Format of predict.txt:
+1     2	    3     4    5    6    7     8    9      10   11 12   13   14
+e(A) e(B) e(B')	o(A) o(B) o(B') r(A) r(B) r(B') r(B-B') t z(A) z(B) z(B')
+
+e: outmost electronic number (containing s electron), can be found from ele.txt (third column)
+o: oxidation state, can be found from cif file
+r: ionic radii
+t: tolerance factor
+z: atomic number
